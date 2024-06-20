@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #777272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #f35f5f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #157c1a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid #eee;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions button {
+    padding: 6px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.actions .delete {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.actions .delete:hover {
+    background-color: #9d0909; /* Darker red on hover */
+}
+
+.actions .complete {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+
+.actions .complete:hover {
+    background-color: #157c1a; /* Darker green on hover */
+}
+
+.actions .edit {
+    background-color: #2196f3; /* Blue */
+    color: white;
+}
+
+.actions .edit:hover {
+    background-color: #084e8b; /* Darker blue on hover */
+}
+
+#completedTasksList {
+    background-color: #ccf9ce; /* Light green background for completed tasks */
+}
+
+#completedTasks{
+    font-size: small;
+}
+
+
+#pendingTasks{
+    font-size: small;
+}

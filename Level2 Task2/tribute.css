@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-family:serif;
+    margin-top: 45px;
+    text-align: center;
+    color:rgb(244, 15, 99);
+    animation: blink-animation 1s infinite;
+    opacity: 1;
+}
+@keyframes blink-animation {
+    0%, 49.9% {
+        opacity: 1; /* Fully visible */
+    }
+    50%, 100% {
+        opacity: 0.3; /* Partially visible */
+    }
+}
+
+h1:hover {
+    color: rgb(119, 5, 142);
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    margin-top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('pv-sindhu-wins.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 0.3; /* Adjust the opacity */
+    z-index: -1; /* Place it behind the content */
+}
+
+#image1 {
+    margin-top: 15px;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+#image1:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+    filter: brightness(120%);
+    box-shadow: 0 0 10px rgb(57, 57, 32);
+}
+
+#p1{
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p2{
+    margin-top: 15px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#head2{
+    padding-bottom: 15px;
+}
+
+#p3{
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin: 0 auto; 
+    width: 80%; 
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px; 
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table td {
+    padding-left: 40%;
+    text-align: left;
+    margin-left: 75%;
+}
+
+#empty-space {
+    height: 75px; 
+}

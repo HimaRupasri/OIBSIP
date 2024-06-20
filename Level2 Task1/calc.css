@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family : 'poppins', sans-serif;
+ }
+ h1 {
+    color: #041428;
+    margin-bottom: 35%; 
+}
+ body{
+    background-color: #5991d6;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border-radius: 6px;
+ }
+ .main input[type='text'] {
+    width: 90%;
+    position:relative;
+    height: 80px;
+    top: 12px;
+    text-align: right;
+    padding: 6px 6px;
+    font-size: 40px;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #c0dafb;
+    border-color: #c0dafb;
+    color: rgb(2, 49, 33);
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    border-color: #c0dafb;
+    background-color: #8db5ea;
+    border-radius: 6px;
+    color: #045ed4;
+    font-size:larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .btn input[type='button']:hover{
+    background-color: rgb(63, 137, 207);
+    color: white;
+ }
+
+input[type="button"][value="0"],
+input[type="button"][value="1"],
+input[type="button"][value="2"],
+input[type="button"][value="3"],
+input[type="button"][value="4"],
+input[type="button"][value="5"],
+input[type="button"][value="6"],
+input[type="button"][value="7"],
+input[type="button"][value="8"],
+input[type="button"][value="9"]{
+    background-color: #c0dafb;
+    color: #043d66d7;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
